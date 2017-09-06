@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package com.StrutsLogin.Action;
+
+/**
+ * @author Jevic
+ *
+ */
+public class LoginAction extends ActionServlet {
+
+}
