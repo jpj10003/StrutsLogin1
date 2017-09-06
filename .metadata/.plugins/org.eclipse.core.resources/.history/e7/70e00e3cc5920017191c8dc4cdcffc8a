@@ -1,0 +1,14 @@
+/**
+ * 
+ */
+package com.StrutsLogin.Form;
+
+import org.apache.struts.action.ActionForm;
+
+/**
+ * @author Jevic
+ *
+ */
+public class LoginForm extends ActionForm {
+
+}
