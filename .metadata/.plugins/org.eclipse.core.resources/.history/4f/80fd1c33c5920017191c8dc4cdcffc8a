@@ -11,5 +11,4 @@ import org.apache.struts.action.ActionServlet;
  */
 public class LoginAction extends ActionServlet {
 
-	
 }

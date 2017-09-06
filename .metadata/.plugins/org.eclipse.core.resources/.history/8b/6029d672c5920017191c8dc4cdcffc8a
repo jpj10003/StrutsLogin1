@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package com.StrutsLogin.Form;
+
+/**
+ * @author Jevic
+ *
+ */
+public class LoginForm {
+
+}
