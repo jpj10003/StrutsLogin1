@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package com.StrutsLogin.Mapper;
+
+/**
+ * @author Jevic
+ *
+ */
+public class LoginMapper {
+
+}

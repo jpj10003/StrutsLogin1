@@ -1,0 +1,20 @@
+/**
+ * 
+ */
+package com.StrutsLogin.Query;
+
+/**
+ * @author Jevic
+ *
+ */
+public class LoginQuery {
+
+	public LoginQuery() {
+
+	}
+
+	public String validateQuery() {
+
+	}
+
+}

@@ -1,0 +1,43 @@
+/**
+ * 
+ */
+package com.StrutsLogin.Mapper;
+
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+import javax.servlet.http.HttpServletRequest;
+
+import com.SturtsLogin.Form.LoginForm;
+import com.sun.corba.se.pept.transport.Connection;
+
+/**
+ * @author Jevic
+ *
+ */
+public class LoginMapper {
+
+	private Connection connection;
+	private ResultSet rs;
+	
+	public LoginMapper() {
+		String url = "jdbc:mysql://localhost:3306/" + "dNBA" + "?autoReconnect=true&useSSL=false";
+		try
+		{
+			Class.forName("com.mysql.jdbc.Driver").newInstance();
+			this.connection = (Connection) DriverManager.getConnection(url,"root","jevic");
+			
+		}catch (InstantiationException | IllegalAccessException | ClassNotFoundException | SQLException e) {
+			// TODO Auto-generated catch block
+			((Throwable) e).printStackTrace();
+		}
+	}
+
+	public String validateUser(LoginForm login, HttpServletRequest request){
+		
+		
+		return "success"
+	}
+	
+}

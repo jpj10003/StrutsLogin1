@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package com.StrutsLogin.Query.copy;
+
+/**
+ * @author Jevic
+ *
+ */
+public class LoginQuery {
+
+}

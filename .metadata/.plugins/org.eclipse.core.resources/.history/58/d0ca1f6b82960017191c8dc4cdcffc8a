@@ -1,0 +1,24 @@
+/**
+ * 
+ */
+package com.StrutsLogin.Query;
+
+import javax.servlet.http.HttpServletRequest;
+
+import com.SturtsLogin.Form.LoginForm;
+
+/**
+ * @author Jevic
+ *
+ */
+public class LoginQuery {
+
+	public LoginQuery() {
+
+	}
+
+	public String validateQuery(LoginForm login, HttpServletRequest request) {
+
+	}
+
+}
